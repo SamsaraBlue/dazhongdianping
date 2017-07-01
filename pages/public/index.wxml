@@ -1,0 +1,117 @@
+<view class="container">
+  <view class="all_search">
+    <icon type="search" size="14"></icon>
+    <input type="text" placeholder="输入商户名、地点、找优惠"></input>
+  </view>
+  <view class="nav_guide">
+    <view class="guide_item">
+      <view class="g_item" bindtap="">
+        <text class="g_text">附近</text>
+        <view class="guide_icon"></view>
+      </view>
+      <view class="g_item">
+        <text class="g_text">美食</text>
+        <view class="guide_icon"></view>
+      </view>
+      <view class="g_item last">
+        <text class="g_text">智能排序</text>
+        <view class="guide_icon"></view>
+      </view>
+    </view>
+  </view>
+  <view class="choose_item">
+    <view class="item_left">
+      <image src="../../image/rouxiebao.png"></image>
+    </view>
+    <view class="flex_auto item_middle">
+      <view>
+        <text class="title">老渔夫肉蟹煲</text>
+      </view>
+      <view>
+        <text class="location">新建县</text>
+        <text class="type">川菜</text>
+      </view>
+    </view>
+    <view class="item_right">
+      <view>
+        <text class="distance">556m</text>
+      </view>
+    </view>
+  </view>
+  <view class="choose_item">
+    <view class="item_left">
+      <image src="../../image/rouxiebao.png"></image>
+    </view>
+    <view class="flex_auto item_middle">
+      <view>
+        <text class="title">老渔夫肉蟹煲</text>
+      </view>
+      <view>
+        <text class="location">新建县</text>
+        <text class="type">川菜</text>
+      </view>
+    </view>
+    <view class="item_right">
+      <view>
+        <text class="distance">556m</text>
+      </view>
+    </view>
+  </view>
+  <view class="choose_item">
+    <view class="item_left">
+      <image src="../../image/rouxiebao.png"></image>
+    </view>
+    <view class="flex_auto item_middle">
+      <view>
+        <text class="title">老渔夫肉蟹煲</text>
+      </view>
+      <view>
+        <text class="location">新建县</text>
+        <text class="type">川菜</text>
+      </view>
+    </view>
+    <view class="item_right">
+      <view>
+        <text class="distance">556m</text>
+      </view>
+    </view>
+  </view>
+  <view class="choose_item">
+    <view class="item_left">
+      <image src="../../image/rouxiebao.png"></image>
+    </view>
+    <view class="flex_auto item_middle">
+      <view>
+        <text class="title">老渔夫肉蟹煲</text>
+      </view>
+      <view>
+        <text class="location">新建县</text>
+        <text class="type">川菜</text>
+      </view>
+    </view>
+    <view class="item_right">
+      <view>
+        <text class="distance">556m</text>
+      </view>
+    </view>
+  </view>
+  <view class="choose_item">
+    <view class="item_left">
+      <image src="../../image/rouxiebao.png"></image>
+    </view>
+    <view class="flex_auto item_middle">
+      <view>
+        <text class="title">老渔夫肉蟹煲</text>
+      </view>
+      <view>
+        <text class="location">新建县</text>
+        <text class="type">川菜</text>
+      </view>
+    </view>
+    <view class="item_right">
+      <view>
+        <text class="distance">556m</text>
+      </view>
+    </view>
+  </view>
+</view>

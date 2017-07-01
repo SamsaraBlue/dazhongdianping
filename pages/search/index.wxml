@@ -1,0 +1,23 @@
+<view class="container">
+  <view class="search_container">
+    <input type="text" placeholder="输入商户名、地点、找优惠"></input>
+    <button plain="false" style="border: none" bindtap="toReturnIndex">取消</button>
+  </view>
+  <view class="prompt">
+    <view class="prompt_item">铜锣湾</view>
+    <view class="prompt_item">铜锣湾</view>
+    <view class="prompt_item">铜锣湾</view>
+    <view class="prompt_item">铜锣湾</view>
+    <view class="prompt_item">铜锣湾</view>
+    <view class="prompt_item">铜锣湾</view>
+  </view>
+  <view class="search_record">
+    <text class="attention s_text">搜索记录</text>
+    <view class="s_record">
+      <view class="all_item">万达</view>
+      <view class="all_item">万达</view>
+      <view class="all_item">万达</view>
+      <view class="all_item">万达</view>
+    </view>
+  </view>
+</view>

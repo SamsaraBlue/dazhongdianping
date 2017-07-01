@@ -1,0 +1,83 @@
+<view class="page">
+  <view class="page__hd">
+    <view class="header_left">
+      <image src="../../image/rouxiebao.png"></image>
+    </view>
+    <view class="header_right">
+      <view>
+        <text class="title">小卖铺</text>
+      </view>
+      <view class="info">
+        <text class="comment">评论:32条</text>
+        <text class="price">￥15/人</text>
+      </view>
+      <view class="local">
+        <text class="local">下罗</text>
+        <text class="type">小吃</text>
+      </view>
+    </view>
+  </view>
+  <view class="weui-cells">
+    <view class="weui-cell">
+      <view class="weui-cell__bd">
+        <text class="taste">口味: 7.5</text>
+        <text class="environment">环境: 7.4</text>
+        <text class="service">服务: 7.4</text>
+      </view>
+    </view>
+    <a href="javascript:;" class="weui-cell weui-cell_access">
+      <view class="weui-cell__bd">
+        <text>cell standard</text>
+      </view>
+      <view class="weui-cell__ft">
+      </view>
+    </a>
+    <a href="javascript:;" class="weui-cell weui-cell_access">
+      <view class="weui-cell__bd">
+        <text>cell standard</text>
+      </view>
+      <view class="weui-cell__ft">
+      </view>
+    </a>
+  </view>
+  <view class="weui-cells">
+    <view class="weui-cell">
+      <view class="item_left">
+        <image src="../../image/rouxiebao.png"></image>
+      </view>
+      <view class="flex_auto item_middle">
+        <view>
+          <text class="title">美味单人餐，可免费使用包间，提供免费WiFi</text>
+        </view>
+        <view>
+          <text class="price"><text class="money">￥</text>100</text>
+          <text class="old_price money">￥88</text>
+        </view>
+      </view>
+      <view class="item_right">
+        <view>
+          <text class="saled">已售1100</text>
+        </view>
+      </view>
+    </view>
+    <view class="weui-cell">
+      <view class="item_left">
+        <image src="../../image/rouxiebao.png"></image>
+      </view>
+      <view class="flex_auto item_middle">
+        <view>
+          <text class="title">美味单人餐，可免费使用包间，提供免费WiFi</text>
+        </view>
+        <view>
+          <text class="price"><text class="money">￥</text>100</text>
+          <text class="old_price money">￥88</text>
+        </view>
+      </view>
+      <view class="item_right">
+        <view>
+          <text class="saled">已售1100</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

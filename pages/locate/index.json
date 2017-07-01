@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/locate/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"#ffffff",
+    "navigationBarBackgroundColor": "black",
+    "navigationBarTitleText": "大众点评",
+    "navigationBarTextStyle":"#fff"
+  }
+}

@@ -1,0 +1,35 @@
+<view class="container">
+  <view class="section section_gap">
+    <view class="hot_movie">热映影片</view>
+    <scroll-view class="scroll_movie" scroll-x="true">
+      <view class="movie_item" wx:for="{{item}}" wx:key="item">
+        <image src="{{item.img}}"></image>
+        <text></text>
+        <view class="movie_title">{{item.nm}}</view>
+      </view>
+    </scroll-view>
+  </view>
+  <view class="cinema">
+    <view class="cinema_item" wx:for="{{cinemaArray}}" wx:key="item">
+      <view class="flex_auto item_left">
+        <view>
+          <text class="title">{{item.cinemaName}}</text>
+        </view>
+        <view>
+          <text class="price">{{item.price}}</text>
+          <text class="sit">座</text>
+          <text class="card">折扣卡</text>
+        </view>
+        <view>
+          <text class="favo">惠</text>
+          <text class="sub_title">{{item.subTitle}}</text>
+        </view>
+      </view>
+      <view class="item_right">
+        <view>
+          <text class="distance">{{item.distance}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

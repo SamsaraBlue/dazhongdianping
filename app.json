@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/detail/detail",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle": "#ffffff",
+    "navigationBarTextStyle": "#ffffff",
+    "navigationBarTitleText": "大众点评",
+    "navigationBarBackgroundColor": "#000000",
+    "backgroundColor": "#000000",
+    "enablePullDownRefresh": true
+  }
+}

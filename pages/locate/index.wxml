@@ -1,0 +1,39 @@
+<view class="locate_container">
+  <view class="cur_country nav">
+    <view class="country_side nav_item {{currentTab==0?'on':''}}" data-current="0" bindtap="switchNav">国内</view>
+    <view class="ocountry_side nav_item {{currentTab==1?'on':''}}" data-current="1" bindtap="switchNav">国外</view>
+  </view>
+  <view class="search-container">
+    <icon type="search" size="14"></icon>
+    <input type="text" placeholder="输入城市名或拼音查询"></input>
+  </view>
+  <view class="cur_locate">
+    <text class="city" bindtap="bindViewTap">{{city}}<text class="attention l_c">GPS定位</text></text>
+  </view>
+  <swiper current="{{currentTab}}" bindchange="bindChange">
+    <swiper-item>
+      <view class="hot_city">
+        <text class="attention att_city h_c">国内热门城市</text>
+        <block wx:for="hotcitys" wx:key="item">
+          <view class="h_city">{{item.name}}</view>
+        </block>
+      </view>
+      <view class="all_city" wx:for="catagory" wx:key="item">
+        <text class="attention att_city A_c">{{item.id}}</text>
+        <block wx:for="catagory.city" wx:key="item">
+          <view class="a_city">
+            <view class="all_item">{{item.name}}</view>
+          </view>
+        </block>
+      </view>
+    </swiper-item>
+    <swiper-item>
+      <view class="all_city">
+        <text class="attention att_city A_c">A</text>
+        <view class="a_city">
+          <view class="all_item">北京</view>
+        </view>
+      </view>
+    </swiper-item>
+  </swiper>
+</view>

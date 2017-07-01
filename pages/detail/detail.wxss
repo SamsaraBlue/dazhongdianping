@@ -1,0 +1,85 @@
+.page, .page__hd, .weui-cells .weui-cell{
+  font-size: 25rpx;
+}
+.page__hd{
+  height: 140rpx;
+}
+.header_left{
+  float: left;
+  width: 170rpx;
+  height: 140rpx;
+  display: inline-block;
+  padding: 20rpx;
+}
+.header_left image{
+  width: 170rpx;
+  height: 140rpx;
+}
+.header_right .title {
+  font-size: 32rpx;
+  font-weight: bold;
+}
+.info{
+  color: #909090;
+}
+.local{
+  color: #909090;
+}
+.header_right{
+  padding-top: 20rpx;
+  display: inline-block;
+}
+.item_left{
+  display: inline-block;
+}
+.item_left image{
+  display: block;
+  width: 160rpx;
+  height: 160rpx;
+  margin: 14rpx 0 14rpx 0;
+  background-size: cover;
+}
+.item_middle{
+  display: inline-block;
+  margin-left: 20rpx;
+  padding-top: 16rpx;
+  overflow: hidden;
+}
+.item_right .title{
+  font-size: 34rpx;
+  color: black;
+  font-weight: bold;
+  letter-spacing: 2rpx;
+}
+.item_middle .price{
+  display: inline-block;
+  font-size: 42rpx;
+  color: #f16649;
+  margin-top: 4rpx;
+  font-weight: bold;
+}
+.item_middle .old_price{
+  color: #848484;
+  display: inline-block;
+  margin: 4rpx 15rpx 0 20rpx;
+  text-decoration: line-through;
+}
+.item_middle .money{
+  display: inline-block;
+  font-size: 26rpx;
+  margin-right: 5rpx;
+}
+.item_right{
+  display: inline-block;
+  float: right;
+  padding-top: 36rpx;
+}
+.item_right .saled{
+  margin-top: 60rpx;
+  color: #848484;
+  display: inline-block;
+  padding: 4rpx 30rpx 0 0;
+  font-size: 28rpx;
+  line-height: 32rpx;
+  text-align: center;
+}

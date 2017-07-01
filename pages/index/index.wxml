@@ -1,0 +1,70 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="header">
+    <view class="locate" bindtap="toChooseLocate">
+      <text>南昌</text>
+      <image src="../../image/locate.png"></image>
+    </view>
+    <view class="search-container" bindtap="toInputLocate">
+      <icon type="search" size="14"></icon>
+      <input type="text" placeholder="输入商户名、地点、找优惠"></input>
+    </view>
+    <view class="userinfo">
+      <image src="../../image/userinfo.png"></image>
+    </view>
+  </view>
+  <view class="navbar">
+    <view class="nav_item food" bindtap="toPublicPage">
+      <image src="../../image/food.png"></image>
+      <text>美食</text>
+    </view>
+    <view class="nav_item movie" bindtap="toMoviePage">
+      <image src="../../image/movie.png"></image>
+      <text>电影</text>
+    </view>
+    <view class="nav_item enjoy">
+      <image src="../../image/enjoy.png"></image>
+      <text>休闲娱乐</text>
+    </view>
+    <view class="nav_item beauty">
+      <image src="../../image/beauty.png"></image>
+      <text>丽人</text>
+    </view>
+    <view class="nav_item all">
+      <image src="../../image/all.png"></image>
+      <text>全部</text>
+    </view>
+  </view>
+  <block>
+    <view class="gess_like">
+      <view class="like">
+        <text>猜你喜欢</text>
+      </view>
+      <view class="gess_item" wx:for="{{gessLike}}" wx:key="item">
+        <view class="item_left">
+          <image src="{{item.img}}"></image>
+        </view>
+        <view class="flex_auto item_middle">
+          <view>
+            <text class="title">{{item.title}}</text>
+          </view>
+          <view>
+            <text class="sub_title">{{item.subTitle}}</text>
+          </view>
+          <view>
+            <text class="price"><text class="money">￥</text>{{item.price}}</text>
+            <text class="old_price money">￥{{item.oldPrice}}</text>
+          </view>
+        </view>
+        <view class="item_right">
+          <view>
+            <text class="distance">{{item.distance}}</text>
+          </view>
+          <view>
+            <text class="saled">已售{{item.saled}}</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </block>
+</view>

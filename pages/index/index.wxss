@@ -1,0 +1,162 @@
+/**index.wxss**/
+.header{
+  height: 100rpx;
+  width: 100%;
+  background-color: #181818;
+  position: relative;
+}
+.locate{
+  display: inline-block;
+  margin-top: 30rpx;
+  margin-left: 25rpx;
+}
+.locate text{
+  font-size: 29rpx;
+  color: #d1ad7b;
+}
+.locate image{
+  width: 20rpx;
+  height: 24rpx;
+}
+.search-container{
+  position: absolute;
+  display: inline-block;
+  width: 500rpx;
+  height: 52rpx;
+  margin-top: 30rpx;
+  margin-left: 35rpx;
+}
+.search-container icon{
+  position: absolute;
+  background-color: #fff;
+  margin-top: 12rpx;
+  margin-left: 16rpx;
+  border-radius: 50%;
+  color: #494949;
+}
+.search-container input{
+  background-color: #fff;
+  border-radius: 28rpx;
+  font-size: 26rpx;
+  color: #939393;
+  padding-left: 60rpx;
+}
+.userinfo{
+  display: inline-block;
+  position: absolute;
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 580rpx;
+  margin-top: 36rpx;
+}
+.userinfo image{
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.navbar{
+  height: 190rpx;
+  padding: 0 20rpx;
+  background-color: #fff;
+}
+.nav_item{
+  display: inline-block;
+  width: 102rpx;
+  height: 174rpx;
+  margin: 30rpx 20rpx 0 20rpx;
+}
+.navbar image{
+  width: 80rpx;
+  height: 80rpx;
+  margin-left: 12rpx;
+  background-size: cover;
+}
+.navbar text{
+  display: inline-block;
+  width: 104rpx;
+  font-size: 27rpx;
+  text-align: center;
+}
+
+.gess_like{
+  margin-top: 20rpx;
+}
+.gess_like .like{
+  width: 100%;
+  height: 20rpx;
+  background-color: #fff;
+  padding: 24rpx 0 10rpx 24rpx;
+  font-size: 29rpx;
+  color: #848484;
+}
+.gess_item{
+  padding: 10rpx 0 0 24rpx;
+  background-color: #fff;
+  color: #787878;
+  border-bottom: 1px solid #f1f1f1;
+}
+.item_left{
+  display: inline-block;
+}
+.gess_item image{
+  display: block;
+  width: 160rpx;
+  height: 160rpx;
+  margin: 14rpx 0 14rpx 0;
+  background-size: cover;
+}
+.item_middle{
+  position: absolute;
+  display: inline-block;
+  margin-left: 20rpx;
+  padding-top: 16rpx;
+  overflow: hidden;
+}
+.item_middle .title{
+  font-size: 34rpx;
+  color: black;
+  font-weight: bold;
+  letter-spacing: 2rpx;
+}
+.item_middle .sub_title{
+  font-size: 27rpx;
+  color: #848484;
+  margin: 4rpx 0;
+}
+.item_middle .price{
+  display: inline-block;
+  font-size: 42rpx;
+  color: #f16649;
+  margin-top: 4rpx;
+  font-weight: bold;
+}
+.item_middle .old_price{
+  display: inline-block;
+  margin: 4rpx 15rpx 0 20rpx;
+  text-decoration: line-through;
+}
+.item_middle .money{
+  display: inline-block;
+  font-size: 26rpx;
+  margin-right: 5rpx;
+}
+.item_right{
+  display: inline-block;
+  float: right;
+  padding-top: 36rpx;
+}
+.item_right .distance{
+  float: right;
+  font-size: 28rpx;
+  color: #848484;
+  padding-right: 30rpx;
+}
+.item_right .saled{
+  margin-top: 60rpx;
+  color: #848484;
+  display: inline-block;
+  padding: 4rpx 30rpx 0 0;
+  font-size: 28rpx;
+  line-height: 32rpx;
+  text-align: center;
+}

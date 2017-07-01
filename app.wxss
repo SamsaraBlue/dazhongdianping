@@ -1,0 +1,82 @@
+/**app.wxss**/
+@import './weui.wxss';
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  background-color: #f1f1f1;
+}
+.attention {
+  color: #949494;
+  font-size: 28rpx;
+}
+.all_item{
+  font-size: 31rpx;
+  background-color: #fff;
+  margin-left: 20rpx;
+  height: 90rpx;
+  line-height: 90rpx;
+  border-bottom: 1rpx solid #f1f1f1;
+}
+.all_search{
+  position: relative;
+  width: 100%;
+  height: 90rpx;
+  background-color: #f1f1f1;
+}
+.all_search icon{
+  position: absolute;
+  background-color: #fff;
+  margin-top: 30rpx;
+  margin-left: 45rpx;
+  border-radius: 50%;
+  color: #494949;
+}
+.all_search input{
+  width: 85%;
+  background-color: #fff;
+  height: 60rpx;
+  border-radius: 30rpx;
+  font-size: 26rpx;
+  color: #939393;
+  padding-left: 60rpx;
+  margin: 15rpx 24rpx;
+}
+.nav_guide{
+  height: 90rpx;
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 1rpx solid #eaeaea;
+}
+.guide_item{
+  padding: 20rpx 30rpx;
+}
+.g_item{
+  display: inline-block;
+  width: 33%;
+  height: 50rpx;
+  border-right: 1rpx solid #eaeaea;
+  position: relative;
+}
+.g_text{
+  display: inline-block;
+  margin-left: 60rpx;
+  font-size: 28rpx;
+  text-align: center;
+  color: #848484;
+}
+.guide_item .last{
+  border-right: none;
+}
+.guide_icon{
+  display: inline-block;
+  margin-left: 20rpx;
+  width: 15rpx;
+  height: 15rpx;
+  border-right: 2rpx solid #848484;
+  border-bottom: 2rpx solid #848484;
+  transform: rotateZ(45deg);
+  position: absolute;
+  top: 15rpx;
+}

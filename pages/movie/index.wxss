@@ -1,0 +1,121 @@
+.section{
+  width: 100%;
+  height: 400rpx;
+  position: relative;
+  border-bottom: 1rpx solid #eaeaea;
+}
+.hot_movie{
+  width: 100%;
+  font-size: 30rpx;
+  padding: 20rpx;
+  background-color: #fff;
+}
+.scroll_movie{
+  position: absolute;
+  width: 100%;
+  height: 300rpx;
+  padding-left: 10rpx;
+  background-color: #fff;
+  white-space: nowrap;
+  border-bottom: 1rpx solid #eaeaea;
+}
+.movie_item{
+  display: inline-block;
+  width: 170rpx;
+  height: 300rpx;
+  background-color: #fff;
+  margin: 0 10rpx;
+}
+.movie_item image{
+  width: 100%;
+  height: 220rpx;
+}
+.movie_title{
+  font-size: 27rpx;
+  margin-left: 5rpx;
+  margin-top: 10rpx;
+  width: 96%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.cinema{
+  background-color: #fff;
+  height: 200rpx;
+  position: relative;
+}
+.cinema_item{
+  background-color: #fff;
+  color: #787878;
+  height: 200rpx;
+  border-bottom: 1rpx solid #f1f1f1;
+  margin-left: 20rpx;
+}
+.item_left{
+  position: absolute;
+  display: inline-block;
+  padding-top: 16rpx;
+  overflow: hidden;
+}
+.item_left .title{
+  font-size: 32rpx;
+  color: black;
+}
+.item_left .sub_title{
+  display: inline-block;
+  font-size: 26rpx;
+  color: #848484;
+  margin-left: 15rpx;
+  margin-top: 15rpx;
+}
+.item_left .price{
+  display: inline-block;
+  font-size: 36rpx;
+  color: #f16649;
+  margin-top: 15rpx;
+}
+.item_left .sit{
+  display: inline-block;
+  width: 25rpx;
+  height: 25rpx;
+  font-size: 23rpx;
+  color: #7fd53e;
+  border: 1rpx solid #7fd53e;
+  margin-left: 15rpx;
+  line-height: 25rpx;
+  border-radius: 2rpx;
+}
+.item_left .card{
+  display: inline-block;
+  width: 80rpx;
+  height: 25rpx;
+  font-size: 23rpx;
+  color: #f5a618;
+  border: 1rpx solid #f5a618;
+  text-align: center;
+  margin-left: 15rpx;
+  line-height: 25rpx;
+  border-radius: 2rpx;
+}
+.item_left .favo{
+  display: inline-block;
+  width: 25rpx;
+  height: 25rpx;
+  font-size: 23rpx;
+  background-color: #f49911;
+  border-radius: 2rpx;
+  color: #fff;
+  text-align: center;
+  line-height: 25rpx;
+}
+.item_right{
+  display: inline-block;
+  float: right;
+  padding-top: 24rpx;
+}
+.item_right .distance{
+  float: right;
+  font-size: 27rpx;
+  color: #848484;
+  padding-right: 30rpx;
+}
